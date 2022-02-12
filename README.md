@@ -10,6 +10,9 @@ Get a movie's trailers by id
 ## File Generator Utility
 - Uses existing Heroku API provided by Turing to generate complete data files for movies and their respective trailers.
 - Files are then used as data source for the API.
+- Utilizes a progress bar
+
+Run with `node utils/movie-data-generator`
 
 Potential Issues:
 - Heroku API must be up
@@ -17,5 +20,5 @@ Potential Issues:
 
 Improvements:
 - Stream data objects to file as they are retrieved vs writing to an array and then writing the array to a file.
-    - Writing all objects to an array is not scalable as they're stored in memory in the array before being written to file. If >= 2GB of movie data the array could not hold them.
+    - Writing all objects to an array is not scalable as they're stored in memory in the array before being written to file. If >= 2GB of movie data, the array could not hold them.
     - A stream would write the object to file then release it from memory, only ever storing 1 object in memory.
