@@ -1,11 +1,13 @@
 # Rotten Tomatillos API
 ## Endpoints
-Get all movies
-`api/v1/movies`
-Get movie by id
-`api/v1/movies/:id`
-Get a movie's trailers by id
-`api/v1/movies/:id/videos`
+- Get all movies
+    -`api/v1/movies`
+    
+-Get movie by id
+    -`api/v1/movies/:id`
+    
+-Get a movie's trailers by id
+    -`api/v1/movies/:id/videos`
 
 
 API is deployed on heroku: [Rancid Tomatillos API](https://rancid-tomatillos-api2110.herokuapp.com/api/v1/movies)
