@@ -15,6 +15,12 @@ API is deployed on Heroku: [Rancid Tomatillos API](https://rancid-tomatillos-api
 - Files are then used as data source for the API.
 - Utilizes a progress bar
 
+## Installation Instructions
+
+- Clone down this [repo](https://github.com/cagallo/movies-data-api.git) 
+- `cd` into directory 
+- run `npm i express`
+
 If Turing API has updates, can regenerate the list
 - Run with `node utils/movie-data-generator` 
 - Files are saved in `/data-files`
