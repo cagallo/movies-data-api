@@ -15,11 +15,11 @@ API is deployed on Heroku: [Rancid Tomatillos API](https://rancid-tomatillos-api
 - Files are then used as data source for the API.
 - Utilizes a progress bar
 
-//If Turing API has updates, can regenerate the list
+If Turing API has updates, can regenerate the list
 - Run with `node utils/movie-data-generator` 
 - Files are saved in `/data-files`
 
-//If no updates
+If no updates
 - run `nodemon server.js`
 - go to localhost:3001
 
