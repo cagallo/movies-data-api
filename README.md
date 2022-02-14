@@ -7,7 +7,7 @@
 - Get a movie's trailers by id => `api/v1/movies/:id/videos`
 
 
-API is deployed on heroku: [Rancid Tomatillos API](https://rancid-tomatillos-api2110.herokuapp.com/api/v1/movies)
+API is deployed on Heroku: [Rancid Tomatillos API](https://rancid-tomatillos-api2110.herokuapp.com/api/v1/movies)
 
 
 ## File Generator Utility
