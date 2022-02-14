@@ -1,11 +1,15 @@
 # Rotten Tomatillos API
 ## Endpoints
-`api/v1/movies`
 Get all movies
-`api/v1/movies/:id`
+`api/v1/movies`
 Get movie by id
-`api/v1/movies/:id/videos`
+`api/v1/movies/:id`
 Get a movie's trailers by id
+`api/v1/movies/:id/videos`
+
+
+API is deployed on heroku: [Rancid Tomatillos API](https://rancid-tomatillos-api2110.herokuapp.com/api/v1/movies)
+
 
 ## File Generator Utility
 - Uses existing Heroku API provided by Turing to generate complete data files for movies and their respective trailers.
