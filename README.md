@@ -36,6 +36,6 @@ Potential Issues:
 Improvements:
 - Create .js files with `export default` appended to make files immediately usable
     - Currently objects must be copied into correct format.
-- Stream data objects to file as they are retrieved vs writing to an array and then writing the array to a file.
+- Looking into streaming data objects to file as they are retrieved vs writing to an array and then writing the array to a file.
     - Writing all objects to an array is not scalable as they're stored in memory in the array before being written to file. If >= 2GB of movie data, the array could not hold them.
     - A stream would write the object to file then release it from memory, only ever storing 1 object in memory.
