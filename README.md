@@ -44,4 +44,4 @@ Improvements:
 
 - [Chez Gallo](https://github.com/cagallo)
 
-- Code Review/Contributor = [Travis Roberts](https://github.com/trobe026)
+- Code Review/Contributor: [Travis Roberts](https://github.com/trobe026)
