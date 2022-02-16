@@ -39,3 +39,9 @@ Improvements:
 - Looking into streaming data objects to file as they are retrieved vs writing to an array and then writing the array to a file.
     - Writing all objects to an array is not scalable as they're stored in memory in the array before being written to file. If >= 2GB of movie data, the array could not hold them.
     - A stream would write the object to file then release it from memory, only ever storing 1 object in memory.
+
+## Authors
+
+- [Chez Gallo](https://github.com/cagallo)
+
+- Code Review/Contributor = [Travis Roberts](https://github.com/trobe026)
